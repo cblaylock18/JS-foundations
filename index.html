@@ -8,25 +8,78 @@
     </head>
     <body>
         <script>
-            console.log("Hello, World!");
-            let admin;
-            let name = "John";
-            admin = name;
-            // alert(admin);
-            let ourPlanetName = "Earth";
-            let currentUserName = "me";
-            console.log(3246 + 2346 + 65 + 5 + 65 + 65 + 65 + 43285766);
-            let answer;
-            answer = (4 + 6 + 9) / 77;
-            console.log(answer);
+            // console.log("Hello, World!");
+            // let admin;
+            // let name = "John";
+            // admin = name;
+            // // alert(admin);
+            // let ourPlanetName = "Earth";
+            // let currentUserName = "me";
+            // console.log(3246 + 2346 + 65 + 5 + 65 + 65 + 65 + 43285766);
+            // let answer;
+            // answer = (4 + 6 + 9) / 77;
+            // console.log(answer);
 
-            let a = 10;
-            console.log(a);
+            // let a = 10;
+            // console.log(a);
 
-            const MAX = 57;
-            let actual = MAX - 13;
-            let percentage = actual / MAX;
-            console.log(percentage);
+            // const MAX = 57;
+            // let actual = MAX - 13;
+            // let percentage = actual / MAX;
+            // console.log(percentage);
+            // //next lesson
+            // const string = "The revolution will not be televised.";
+            // console.log(string);
+            // const badString = string;
+            // console.log(badString);
+            // //next lesson
+            // const backTick = `Hello, ${badString}`;
+            // console.log(backTick);
+            // console.log(
+            //     `This is a test of how much I enjoy template literals (I enjoy them ${
+            //         (a / MAX) * 100
+            //     }%)`
+            // );
+            // //next lesson
+            // const newline = `One day you finally knew
+            // what you had to do, and began,`;
+            // console.log(newline);
+            // //next lesson
+            // const myString = "123";
+            // const myNum = Number(myString);
+            // console.log(typeof myNum);
+            // //next lesson
+            // const test = "New line?\nyes?";
+            // console.log(test);
+            // //next lesson
+            // let text = "ashfapisghapsiduhgapisdh";
+            // let length = text.length;
+            // console.log(length);
+            // text = "Hello" + " " + "World!";
+            // text = "Hello".concat(" ", "World!!!!");
+            // console.log(text);
+
+            function add7(number) {
+                number += 7;
+                return number;
+            }
+            console.log(add7(10));
+
+            function multiply(a, b) {
+                return (result = a * b);
+            }
+            console.log(multiply(10, 10));
+
+            function capitalize(string) {
+                stringMod = string.toLowerCase();
+                let endOfString = stringMod.slice(1).toLowerCase();
+                let startOfString = stringMod.substr(0, 1).toUpperCase();
+                return startOfString + endOfString;
+            }
+            console.log(capitalize("ThisISwEIRD"));
+
+            let lastLetter = (string) => string.substr(-1, 1);
+            console.log(lastLetter("asldhgoiopngaighadsgoi"));
         </script>
     </body>
 </html>
